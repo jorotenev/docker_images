@@ -10,4 +10,5 @@ To use in your project, change `jorotenev/python_base` to your Docker hub reposi
 * Then do  
 `docker build jorotenev/python_base:v1`  (tag the image with something else than `v1` if appropriate)
 * Push to Docker hub  
-`docker push jorotenev/pyhton_base`
+`docker push jorotenev/pyhton_base`  
+You might need to authenticate via `docker login` first.
